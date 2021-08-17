@@ -46,6 +46,7 @@ import { createReciprocalRelationshipNpc } from './Buildings/Components/building
 import { outputEverything } from './Tools/Exports/outputEverything'
 import { exportAsHtml } from './Tools/Exports/exportAsHtml'
 import { outputGMBinder } from './Tools/Exports/outputGMBinder'
+import { outputHomebreweryV3 } from './Tools/Exports/outputHomebreweryV3'
 import { copyText } from './Tools/Exports/clipboard'
 import { createGuardhouse, createGuardhouseName } from './MiniEstablishments/Guardhouse/createGuardhouse'
 import { createStartBuildings } from './Town/js/createStartBuildings'
@@ -118,6 +119,7 @@ declare global {
     outputEverything: typeof outputEverything
     exportAsHtml: typeof exportAsHtml
     outputGMBinder: typeof outputGMBinder
+    outputHomebreweryV3: typeof outputHomebreweryV3
     copyText: typeof copyText
     createGuardhouse: typeof createGuardhouse
     createGuardhouseName: typeof createGuardhouseName
@@ -195,6 +197,7 @@ Object.assign(setup, {
   exportAsHtml,
   copyText,
   outputGMBinder,
+  outputHomebreweryV3,
   createGuardhouse,
   createGuardhouseName,
   createStartBuildings,
